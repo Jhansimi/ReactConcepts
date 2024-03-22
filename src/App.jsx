@@ -1,9 +1,10 @@
 import React from 'react'
+import ParentComponent from './component/ParentComponent'
 
 const App = () => {
   return (
     <div>
-      
+      <ParentComponent/>
     </div>
   )
 }
